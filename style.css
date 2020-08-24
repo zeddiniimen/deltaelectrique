@@ -1,0 +1,366 @@
+
+.container-fluid{margin: 0px;}
+.entete{
+    display: flex;
+    width: 100%;
+    height: 40%;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+}
+.adres{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 30px;
+    justify-content: center; flex-direction: row;
+    flex-wrap: wrap;
+}
+.log{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    background-image: url('logodelta.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 60px; flex-direction: row;
+    flex-wrap: wrap;
+}
+.cont{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 30px; flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bg-light{
+   background-image: linear-gradient(to bottom, rgb(215, 215, 238),rgb(4, 22, 61)) ;
+}
+/* .navbar-toggler-icon{
+    color: blue !important;
+} */
+.containerr{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 234, 234);
+    width: 100%;
+}
+
+.containerrr{
+    display: flex;
+    justify-content: center;
+    background-image:url('https://www.charlestonsteelandmetal.com/wp-content/uploads/2011/07/csm-BKG4.jpg');
+    width: 100%;
+}
+
+.div1{
+    margin: 0px;
+    display: flex;
+    display: inline-block; flex-direction: row;flex-wrap: wrap;
+width: 40%;
+height: 50%;
+
+
+   
+    text-align: justify;
+}
+.div2{ display: flex;
+    display: inline-block;
+    width: 40%;
+    height: 80%;
+
+    margin-top: 4em;
+    }
+    .div3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: visible;
+    width: 100%;
+    height: 20%;
+   
+justify-content: center;
+background-color: rgb(241, 234, 234);
+    }
+    .div4{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: hidden;
+      
+    width: 100%;
+    height:30em;
+   background-color: white;
+justify-content: center;
+background-image: url('https://image.freepik.com/vecteurs-libre/decharge-electrique-traversant-air-entre-deux-fils-nus_33099-961.jpg');
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    }
+    .div9{
+        display: flex;
+        display: inline-block;
+    width: 40%;
+    height: 50%;
+    margin-top: 2.5%;
+       
+        text-align: justify;
+    }
+    .div6{ display: flex;
+        display: inline-block;
+        width: 40%;
+        height: 100%;
+     margin-left: 10%;
+        margin-top: 2em;
+        
+        }
+        .div7{  display: flex;
+            display: inline-block;
+            width: 40%;
+            height: 100%;
+         
+            margin-top: 2em;
+            }
+            .div5{
+                width:100%; 
+                height:30em;margin-top:0px;
+               
+                display:flex;
+                display:inline-block;
+            background-image: url('https://webdesignerdepot.s3.amazonaws.com/default-images/25.jpg');
+            
+             }
+             .div10{
+                 display:flex;
+                 width: 100%;
+                 height: 30em;
+                 background-image: url('projet.jpg');
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 justify-content: center;
+             }
+             .div11{
+                display:flex;
+                width: 100%;
+                height: 30em;
+                background-image: url('contact.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                justify-content: center;
+            }
+              
+            .div12{
+                display:flex;
+                width: 50%;
+                height:20%;
+            }
+        
+            .cardcontain{
+                margin-top: 20%;
+                margin-left: 1%;
+                margin-right: 1%;
+                width:30%; 
+                height:30%;
+                display:flex;
+                display:inline-block;
+                
+            }
+            .card-img-top{
+                width: 100%;
+                height: 50%;
+            }
+            .hi-slide { position: relative; width: 754px; height: 292px; margin-top: 5%;margin-left: 20%; }
+            
+            .hi-slide .hi-next,
+            .hi-slide .hi-prev 
+                        { position: absolute;
+                          top: 50%; 
+                          width: 40px;
+                          height: 40px; 
+                          margin-top: -20px;     
+                            border-radius: 50px; 
+                             
+                            
+                          line-height: 40px;
+                          text-align: center; 
+                          cursor: pointer;
+                          background-color: #fff; 
+                          color: black;               
+                          transition: all 0.6s;
+                          font-size: 20px; 
+                            font-weight: bold;
+                        }
+                       .hi-slide .hi-next:hover, 
+                        .hi-slide .hi-prev:hover 
+                        {
+                        opacity: 1; 
+                        background-color: #fff;  
+                        }
+                        
+                       .hi-slide .hi-prev { left: -60px; }
+                        
+                .hi-slide .hi-prev::before { content: '<'; }
+                .hi-slide .hi-next { right: -60px; }
+                .hi-slide .hi-next::before { content: '>'; }
+                
+                        .hi-slide > ul
+                                { 
+                                    list-style: none; 
+                                    position: relative;
+                                    width: 754px; 
+                                    height: 292px; 
+                                    margin: 0;
+                                    padding: 0;
+                        }
+                        
+                        
+                    .hi-slide > ul > li {
+                        overflow: hidden; 
+                        position: absolute; 
+                        z-index: 0; 
+                        left: 377px;
+                        top: 146px; 
+                        width: 0; 
+                        height: 0; 
+                        margin: 0; 
+                        padding: 0;
+                        border: 3px solid #fff;              
+                        background-color: #333; 
+                        cursor: pointer; }
+                        
+                    .hi-slide > ul > li > img { width: 100%; height: 100%; background-position: center;}
+
+                    .con{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        width: 100%;
+                        height: 100%;
+                       justify-content: center;
+                        margin-top: 5%;
+                    }
+
+                    .containerf{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        width: 100%;
+                        height: 40%;
+                        margin:0px;
+                        justify-content: left;
+                        background-image: url('https://www.courant.fr/upload/media/gamme/623-electricite-hd.jpg');
+                        background-size: 100% 100%;
+                        background-repeat:no-repeat;
+                    }
+                    
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .card{
+    cursor: pointer;
+    width: 300px;
+    height:350px;
+  }
+  .front,.back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+  }
+  .front img{
+    height: 100%;
+  }
+  .front{
+    transform: perspective(600px) rotateY(0deg);
+  }
+  .back{
+    background: #f1f1f1;
+    transform: perspective(600px) rotateY(180deg);
+  }
+  .back-content{
+    color: #2c3e50;
+  margin: 0px;
+    width: 100%;
+    font-size: 40px;
+  }
+ 
+  .card:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+  }
+  .card:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+  }
+
+  .cardcontain2{
+    margin-top: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width:30%; 
+    height:30%;
+    display:flex;
+    display:inline-block;
+    
+}
+
+.cardcontain3{
+    margin-top: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width:30%; 
+    height:30%;
+    display:flex;
+    display:inline-block;
+    
+}
+.cardcontain4{
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width:30%; 
+    height:30%;
+    display:flex;
+    display:inline-block;
+    
+}
+.cardcontain5{
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width:30%; 
+    height:30%;
+    display:flex;
+    display:inline-block;
+    
+}
+.cardcontain6{
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width:30%; 
+    height:30%;
+    display:flex;
+    display:inline-block;
+    
+}.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: #f1f1f1;
+    margin-bottom: 2rem;
+  }@media(max-width:1800px) {
+    .card {
+      display: block;
+    }
+  }
